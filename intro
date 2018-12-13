@@ -1,5 +1,5 @@
 [Distributed Systems in One Lesson by Tim Berglund >> https://www.youtube.com/watch?v=Y6Ev8GIlbxc ]
-
+[https://towardsdatascience.com/cap-theorem-and-distributed-database-management-systems-5c2be977950e]
 [Scaling Databases - Web Development >> https://www.youtube.com/watch?v=dkhOZOmV7Fo]
 
 දත්ත ගබඩා වල ඉහල දත්ත හුවමාරු තදබදයක් ඇති විට එයින් ඇතිවන දෝෂ මගහැරීමට විවිධ ක්‍රම භාවිතා කෙරේ.
@@ -78,4 +78,11 @@ R + W > N
  පහත සිතියමේ දැක්වෙනුවේ එක් Node එකක් බිඳවැටී ඇති අවස්ථාවකි. Partition Tolerance ගුණයෙන් ඉහල පද්ධතියක් මෙවැනි 
  අවස්ථාවකදී පද්ධතියේ ක්‍රියාකාරිත්වය අඛණ්ඩව පවත්වාගෙන යයි. 
  [img > https://cdn-images-1.medium.com/max/1091/1*qVoJNWH1osbrnOizRivF1A.png ]
-
+ 
+ ඉහත cap Theorem යේ ගුණ තුනම ආවරණය කරන කොපි-කඩේ උදාහරණයක් ඇත.
+  % two studens sitting at coffee shop with same project copy
+  1.shared writing project (consistent)  
+  % coffe shop closes
+  2. synchoronizing over the phone (available)  
+  % battery dies
+  3. status report (partitioned tolerant)  
